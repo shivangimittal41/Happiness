@@ -1,0 +1,12 @@
+D:\Projects\SunDevilRewards\Dhruv\SDPOC\SDPOC\bin\Debug\netstandard2.0\SDPOC.deps.json
+D:\Projects\SunDevilRewards\Dhruv\SDPOC\SDPOC\bin\Debug\netstandard2.0\SDPOC.dll
+D:\Projects\SunDevilRewards\Dhruv\SDPOC\SDPOC\bin\Debug\netstandard2.0\SDPOC.pdb
+D:\Projects\SunDevilRewards\Dhruv\SDPOC\SDPOC\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Projects\SunDevilRewards\Dhruv\SDPOC\SDPOC\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Projects\SunDevilRewards\Dhruv\SDPOC\SDPOC\obj\Debug\netstandard2.0\SDPOC.csproj.CoreCompileInputs.cache
+D:\Projects\SunDevilRewards\Dhruv\SDPOC\SDPOC\obj\Debug\netstandard2.0\SDPOC.AssemblyInfoInputs.cache
+D:\Projects\SunDevilRewards\Dhruv\SDPOC\SDPOC\obj\Debug\netstandard2.0\SDPOC.AssemblyInfo.cs
+D:\Projects\SunDevilRewards\Dhruv\SDPOC\SDPOC\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Projects\SunDevilRewards\Dhruv\SDPOC\SDPOC\obj\Debug\netstandard2.0\SDPOC.dll
+D:\Projects\SunDevilRewards\Dhruv\SDPOC\SDPOC\obj\Debug\netstandard2.0\SDPOC.pdb
+D:\Projects\SunDevilRewards\Dhruv\SDPOC\SDPOC\obj\Debug\netstandard2.0\SDPOC.csprojAssemblyReference.cache
