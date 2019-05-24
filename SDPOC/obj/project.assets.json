@@ -505,11 +505,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\SunDevilRewards\\Dhruv\\SDPOC\\SDPOC\\SDPOC.csproj",
+      "projectUniqueName": "C:\\Users\\SMITTAL\\Documents\\GitHub\\Happiness\\SDPOC\\SDPOC.csproj",
       "projectName": "SDPOC",
-      "projectPath": "D:\\Projects\\SunDevilRewards\\Dhruv\\SDPOC\\SDPOC\\SDPOC.csproj",
+      "projectPath": "C:\\Users\\SMITTAL\\Documents\\GitHub\\Happiness\\SDPOC\\SDPOC.csproj",
       "packagesPath": "C:\\Users\\SMITTAL\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\SunDevilRewards\\Dhruv\\SDPOC\\SDPOC\\obj\\",
+      "outputPath": "C:\\Users\\SMITTAL\\Documents\\GitHub\\Happiness\\SDPOC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

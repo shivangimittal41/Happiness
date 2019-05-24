@@ -1133,11 +1133,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\SunDevilRewards\\Dhruv\\SDPOC\\SDPOC.Android\\SDPOC.Android.csproj",
+      "projectUniqueName": "C:\\Users\\SMITTAL\\Documents\\GitHub\\Happiness\\SDPOC.Android\\SDPOC.Android.csproj",
       "projectName": "SDPOC.Android",
-      "projectPath": "D:\\Projects\\SunDevilRewards\\Dhruv\\SDPOC\\SDPOC.Android\\SDPOC.Android.csproj",
+      "projectPath": "C:\\Users\\SMITTAL\\Documents\\GitHub\\Happiness\\SDPOC.Android\\SDPOC.Android.csproj",
       "packagesPath": "C:\\Users\\SMITTAL\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\SunDevilRewards\\Dhruv\\SDPOC\\SDPOC.Android\\obj\\",
+      "outputPath": "C:\\Users\\SMITTAL\\Documents\\GitHub\\Happiness\\SDPOC.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1154,8 +1154,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "D:\\Projects\\SunDevilRewards\\Dhruv\\SDPOC\\SDPOC\\SDPOC.csproj": {
-              "projectPath": "D:\\Projects\\SunDevilRewards\\Dhruv\\SDPOC\\SDPOC\\SDPOC.csproj"
+            "C:\\Users\\SMITTAL\\Documents\\GitHub\\Happiness\\SDPOC\\SDPOC.csproj": {
+              "projectPath": "C:\\Users\\SMITTAL\\Documents\\GitHub\\Happiness\\SDPOC\\SDPOC.csproj"
             }
           }
         }

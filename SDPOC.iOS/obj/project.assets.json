@@ -991,11 +991,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\SunDevilRewards\\Dhruv\\SDPOC\\SDPOC.iOS\\SDPOC.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\SMITTAL\\Documents\\GitHub\\Happiness\\SDPOC.iOS\\SDPOC.iOS.csproj",
       "projectName": "SDPOC.iOS",
-      "projectPath": "D:\\Projects\\SunDevilRewards\\Dhruv\\SDPOC\\SDPOC.iOS\\SDPOC.iOS.csproj",
+      "projectPath": "C:\\Users\\SMITTAL\\Documents\\GitHub\\Happiness\\SDPOC.iOS\\SDPOC.iOS.csproj",
       "packagesPath": "C:\\Users\\SMITTAL\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\SunDevilRewards\\Dhruv\\SDPOC\\SDPOC.iOS\\obj\\",
+      "outputPath": "C:\\Users\\SMITTAL\\Documents\\GitHub\\Happiness\\SDPOC.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1012,8 +1012,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\Projects\\SunDevilRewards\\Dhruv\\SDPOC\\SDPOC\\SDPOC.csproj": {
-              "projectPath": "D:\\Projects\\SunDevilRewards\\Dhruv\\SDPOC\\SDPOC\\SDPOC.csproj"
+            "C:\\Users\\SMITTAL\\Documents\\GitHub\\Happiness\\SDPOC\\SDPOC.csproj": {
+              "projectPath": "C:\\Users\\SMITTAL\\Documents\\GitHub\\Happiness\\SDPOC\\SDPOC.csproj"
             }
           }
         }

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SDPOC.Pages.Quiz">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Take the Quiz to know!" />
+            <Button Text="How Happy is your class?" Clicked="Class_Clicked"/>
+            <Button Text="How Happy are you?" Clicked="You_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

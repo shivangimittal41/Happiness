@@ -35,20 +35,22 @@
                                  BackgroundColor="#eeeeee"
                                  HeightRequest="500"
                                  x:Name="topBannerCoverFlowView"
-                                 PositionShiftValue="60"
+                                 PositionShiftValue="60" 
                                  IsCyclical="true"
-                                 Padding="-6">
-                <cards:CoverFlowView.ItemTemplate>
+                                 Padding="-6"
+                                 SelectedItem="selectedImage">
+                <cards:CoverFlowView.ItemTemplate >
                     <DataTemplate>
                         <ContentView Margin="0" Padding="0">
-                            <Image Source="{Binding Image}" Margin="40" Aspect="Fill"/>
+                            <ImageButton Source="{Binding Image}" CommandParameter="{Binding ItemIndex}" 
+                                   Margin="40" Aspect="Fill" Clicked="selectedImage" />
                         </ContentView>
                     </DataTemplate>
                 </cards:CoverFlowView.ItemTemplate>
             </cards:CoverFlowView>
-            
+
             <Label x:Name="TopBannerCount" Grid.Row="2" Margin="0"/>
-            
+
             <!--<cards:CarouselView Margin="-6"
                                 BackgroundColor="#ffffff"
                                 HeightRequest="500"
@@ -67,7 +69,7 @@
                     <Label Text="Check It Out" TextColor="#000000" FontAttributes="Bold" FontSize="Medium" />
             </StackLayout>-->
             <!--<Label Text="Check It Out" TextColor="#000000" FontAttributes="Bold" FontSize="Medium" />-->
-            <WebView x:Name="webView" Source="https://player.vimeo.com/video/332724932" HeightRequest="300" WidthRequest="500" BackgroundColor="#ffffff" Margin="0"/>
+            <WebView x:Name="webView" Source="https://www.youtube.com/watch?v=LIzujPjKfhs" HeightRequest="300" WidthRequest="500" BackgroundColor="#ffffff" Margin="0"/>
     </StackLayout>
     </ScrollView>
 </ContentPage>

@@ -22,10 +22,11 @@ namespace SDPOC
         {
             InitializeComponent();
 
-            topBanners.Add(new TopBanners { ItemIndex = "1", Name = "Hello 01", Image = "Games.png" });
-            topBanners.Add(new TopBanners { ItemIndex = "2", Name = "Hello 02", Image = "News.png" });
-            topBanners.Add(new TopBanners { ItemIndex = "3", Name = "Hello 03", Image = "Rewards.png" });
-            topBanners.Add(new TopBanners { ItemIndex = "4", Name = "Hello 04", Image = "Events.png" });
+            topBanners.Add(new TopBanners { ItemIndex = "0", Name = "Tools 01", Image = "Events.png" });
+            topBanners.Add(new TopBanners { ItemIndex = "1", Name = "Tips 02", Image = "News.png" });
+            topBanners.Add(new TopBanners { ItemIndex = "2", Name = "Index 03", Image = "Rewards.png" });
+            topBanners.Add(new TopBanners { ItemIndex = "3", Name = "Tips 04", Image = "Games.png" });
+            topBanners.Add(new TopBanners { ItemIndex = "4", Name = "Test 05", Image = "CRoom.jpg" });
             topBannerCoverFlowView.ItemsSource = topBanners;
             TopBannerCount.Text = SelectedItemIndex((TopBanners) topBannerCoverFlowView.SelectedItem) + "/" + topBanners.Count;
 
@@ -48,11 +49,34 @@ namespace SDPOC
             return topBanners.Name.ToString();
         }
 
-      
-
-        private void About_Clicked(object sender, EventArgs e)
+        private async void selectedImage(object sender, EventArgs e)
         {
-            
+            if(topBannerCoverFlowView.SelectedIndex == 0)
+            {
+                await Navigation.PushAsync(new Pages.HappinessTools());
+            }
+            else if(topBannerCoverFlowView.SelectedIndex == 1)
+            {
+                await Navigation.PushAsync(new Pages.HappyTechersTip());
+            }
+            else if (topBannerCoverFlowView.SelectedIndex == 2)
+            {
+                await Navigation.PushAsync(new Pages.YourHappinessIndex());
+            }
+            else if (topBannerCoverFlowView.SelectedIndex == 3)
+            {
+                await Navigation.PushAsync(new Pages.TipsToHappyClassroom());
+            }
+            else
+            {
+                await Navigation.PushAsync(new Pages.HpwHappyClassroom());
+            }
         }
+
+        private async void About_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Pages.About());
+        }
+
     }
 }
