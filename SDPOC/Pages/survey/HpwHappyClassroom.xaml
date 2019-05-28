@@ -6,7 +6,7 @@
         <StackLayout>
             <ScrollView VerticalScrollBarVisibility="Default" HorizontalScrollBarVisibility="Default">
 
-                <WebView x:Name="webView" Source=" https://www.surveymonkey.com/r/32SY9VV" HeightRequest="800" WidthRequest="400" BackgroundColor="#ffffff" Margin="0"/>
+                <WebView x:Name="webView" Source=" https://www.surveymonkey.com/r/32SY9VV" HeightRequest="600" WidthRequest="50" BackgroundColor="#ffffff" Margin="0"/>
 
 
             </ScrollView>

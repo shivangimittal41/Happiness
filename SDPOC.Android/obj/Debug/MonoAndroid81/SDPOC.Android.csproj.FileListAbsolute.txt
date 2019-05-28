@@ -113,8 +113,6 @@ C:\Users\SMITTAL\Documents\GitHub\Happiness\SDPOC.Android\obj\Debug\MonoAndroid8
 C:\Users\SMITTAL\Documents\GitHub\Happiness\SDPOC.Android\obj\Debug\MonoAndroid81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\SMITTAL\Documents\GitHub\Happiness\SDPOC.Android\obj\Debug\MonoAndroid81\android\assets\Xamarin.Forms.Xaml.pdb
 C:\Users\SMITTAL\Documents\GitHub\Happiness\SDPOC.Android\obj\Debug\MonoAndroid81\res\drawable\croom.jpg
-C:\Users\SMITTAL\Documents\GitHub\Happiness\SDPOC\bin\Debug\netstandard2.0\SDPOC.dll
 C:\Users\SMITTAL\Documents\GitHub\Happiness\SDPOC.Android\obj\Debug\MonoAndroid81\linksrc\SDPOC.Android.pdb
-C:\Users\SMITTAL\Documents\GitHub\Happiness\SDPOC.Android\bin\Debug\SDPOC.dll.mdb
 C:\Users\SMITTAL\Documents\GitHub\Happiness\SDPOC.Android\obj\Debug\MonoAndroid81\linksrc\SDPOC.dll.mdb
 C:\Users\SMITTAL\Documents\GitHub\Happiness\SDPOC.Android\obj\Debug\MonoAndroid81\linksrc\Xamarin.Essentials.dll.mdb

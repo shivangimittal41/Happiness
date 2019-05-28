@@ -19,19 +19,22 @@
     <Folder Include="models\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Update="Pages\HappinessTools.xaml">
+    <EmbeddedResource Update="Pages\PPT\HappinessTools.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Pages\HappyTechersTip.xaml">
+    <EmbeddedResource Update="Pages\PPT\HappyTechersTip.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Pages\HpwHappyClassroom.xaml">
+    <EmbeddedResource Update="Pages\survey\HpwHappyClassroom.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Pages\TipsToHappyClassroom.xaml">
+    <EmbeddedResource Update="Pages\Quiz.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Pages\YourHappinessIndex.xaml">
+    <EmbeddedResource Update="Pages\PPT\TipsToHappyClassroom.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\survey\YourHappinessIndex.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

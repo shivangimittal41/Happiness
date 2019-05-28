@@ -26,7 +26,7 @@ namespace SDPOC
             topBanners.Add(new TopBanners { ItemIndex = "1", Name = "Tips 02", Image = "News.png" });
             topBanners.Add(new TopBanners { ItemIndex = "2", Name = "Index 03", Image = "Rewards.png" });
             topBanners.Add(new TopBanners { ItemIndex = "3", Name = "Tips 04", Image = "Games.png" });
-            topBanners.Add(new TopBanners { ItemIndex = "4", Name = "Test 05", Image = "CRoom.jpg" });
+            //topBanners.Add(new TopBanners { ItemIndex = "4", Name = "Test 05", Image = "CRoom.jpg" });
             topBannerCoverFlowView.ItemsSource = topBanners;
             TopBannerCount.Text = SelectedItemIndex((TopBanners) topBannerCoverFlowView.SelectedItem) + "/" + topBanners.Count;
 
@@ -61,16 +61,16 @@ namespace SDPOC
             }
             else if (topBannerCoverFlowView.SelectedIndex == 2)
             {
-                await Navigation.PushAsync(new Pages.YourHappinessIndex());
+                await Navigation.PushAsync(new Pages.Quiz());
             }
-            else if (topBannerCoverFlowView.SelectedIndex == 3)
+            else 
             {
                 await Navigation.PushAsync(new Pages.TipsToHappyClassroom());
             }
-            else
-            {
-                await Navigation.PushAsync(new Pages.HpwHappyClassroom());
-            }
+            //else
+            //{
+            //    await Navigation.PushAsync(new Pages.HpwHappyClassroom());
+            //}
         }
 
         private async void About_Clicked(object sender, EventArgs e)

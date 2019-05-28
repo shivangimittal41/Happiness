@@ -23,8 +23,9 @@ C:\Users\SMITTAL\Documents\GitHub\Happiness\SDPOC\obj\Debug\netstandard2.0\SDPOC
 C:\Users\SMITTAL\Documents\GitHub\Happiness\SDPOC\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\SMITTAL\Documents\GitHub\Happiness\SDPOC\obj\Debug\netstandard2.0\SDPOC.dll
 C:\Users\SMITTAL\Documents\GitHub\Happiness\SDPOC\obj\Debug\netstandard2.0\SDPOC.pdb
-C:\Users\SMITTAL\Documents\GitHub\Happiness\SDPOC\obj\Debug\netstandard2.0\Pages\HappinessTools.xaml.g.cs
-C:\Users\SMITTAL\Documents\GitHub\Happiness\SDPOC\obj\Debug\netstandard2.0\Pages\HappyTechersTip.xaml.g.cs
-C:\Users\SMITTAL\Documents\GitHub\Happiness\SDPOC\obj\Debug\netstandard2.0\Pages\HpwHappyClassroom.xaml.g.cs
-C:\Users\SMITTAL\Documents\GitHub\Happiness\SDPOC\obj\Debug\netstandard2.0\Pages\TipsToHappyClassroom.xaml.g.cs
-C:\Users\SMITTAL\Documents\GitHub\Happiness\SDPOC\obj\Debug\netstandard2.0\Pages\YourHappinessIndex.xaml.g.cs
+C:\Users\SMITTAL\Documents\GitHub\Happiness\SDPOC\obj\Debug\netstandard2.0\Pages\PPT\HappinessTools.xaml.g.cs
+C:\Users\SMITTAL\Documents\GitHub\Happiness\SDPOC\obj\Debug\netstandard2.0\Pages\PPT\HappyTechersTip.xaml.g.cs
+C:\Users\SMITTAL\Documents\GitHub\Happiness\SDPOC\obj\Debug\netstandard2.0\Pages\PPT\TipsToHappyClassroom.xaml.g.cs
+C:\Users\SMITTAL\Documents\GitHub\Happiness\SDPOC\obj\Debug\netstandard2.0\Pages\Quiz.xaml.g.cs
+C:\Users\SMITTAL\Documents\GitHub\Happiness\SDPOC\obj\Debug\netstandard2.0\Pages\survey\HpwHappyClassroom.xaml.g.cs
+C:\Users\SMITTAL\Documents\GitHub\Happiness\SDPOC\obj\Debug\netstandard2.0\Pages\survey\YourHappinessIndex.xaml.g.cs

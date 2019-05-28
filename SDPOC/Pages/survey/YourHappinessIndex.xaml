@@ -4,11 +4,12 @@
              x:Class="SDPOC.Pages.YourHappinessIndex">
     <ContentPage.Content>
         <StackLayout>
-            <ScrollView VerticalScrollBarVisibility="Default" HorizontalScrollBarVisibility="Default">
 
-                <WebView x:Name="webView" Source="https://www.surveymonkey.com/r/Y5X3NX3" HeightRequest="800" WidthRequest="400" BackgroundColor="#ffffff" Margin="0"/>
+            <WebView x:Name="webView" Source="https://www.surveymonkey.com/r/Y5X3NX3" HeightRequest="600" WidthRequest="50" BackgroundColor="#ffffff" Margin="0"/>
+            <!--<ScrollView VerticalScrollBarVisibility="Default" HorizontalScrollBarVisibility="Default">
+          
 
-            </ScrollView>
+            </ScrollView>-->
 
         </StackLayout>
     </ContentPage.Content>
