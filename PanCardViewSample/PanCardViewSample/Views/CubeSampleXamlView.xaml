@@ -11,7 +11,7 @@
     Title="Cube Xaml">
 
     <ContentPage.BindingContext>
-        <viewModels:CardsSampleViewModel/>
+        <viewModels:CubeSampleViewModel/>
     </ContentPage.BindingContext>
 
     <StackLayout Spacing="50" Padding="0, 50">    
