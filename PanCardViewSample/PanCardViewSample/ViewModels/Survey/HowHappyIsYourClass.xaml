@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PanCardViewSample.ViewModels.Survey.HowHappyIsYourClass">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView VerticalScrollBarVisibility="Default" HorizontalScrollBarVisibility="Default">
+
+                <WebView x:Name="webView" Source="https://www.surveymonkey.com/r/YWK385D" HeightRequest="600" WidthRequest="50" BackgroundColor="#ffffff" Margin="0"/>
+
+
+            </ScrollView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

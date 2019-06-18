@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"                        
+           xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:cards="clr-namespace:PanCardView;assembly=PanCardView"
+             x:Class="PanCardViewSample.MainPage"
+              BackgroundColor="#eeeeee"
+             Title="Happiness">
+    <ContentPage.ToolbarItems  >
+        <ToolbarItem Name="About"  Text="About" Priority="0" Order="Primary" Clicked="About_Clicked"  />
+    </ContentPage.ToolbarItems>
+
+    <ScrollView>
+        <StackLayout>
+            <!--<StackLayout Padding="0" Margin="0,40,0,0" Spacing="0" BackgroundColor="#ffffff">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="ASULogo.png" HorizontalOptions="CenterAndExpand" Aspect="AspectFit" HeightRequest="40"/>
+                    <Image Source="user.png" HorizontalOptions="EndAndExpand" Aspect="AspectFit" HeightRequest="20" />
+                </StackLayout>
+                <BoxView HeightRequest="2" WidthRequest="200" Color="Gray"/>
+                <StackLayout Padding="10">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Devil Level: Sun" FontAttributes="Bold" HorizontalOptions="StartAndExpand" />
+                        <Label Text="Pitchfork Bank: 685" FontAttributes="Bold" HorizontalOptions="EndAndExpand"/>        
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="-6">
+                        <BoxView Color="Red" HeightRequest="10" WidthRequest="200" Margin="0" HorizontalOptions="StartAndExpand"/>
+                        <BoxView Color="Yellow" HeightRequest="10" WidthRequest="100" Margin="0" HorizontalOptions="StartAndExpand"/>
+                        <BoxView Color="Green" HeightRequest="10" WidthRequest="50" Margin="0" HorizontalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>        
+            </StackLayout>-->
+
+            <cards:CoverFlowView Margin="-6"
+                                 BackgroundColor="#eeeeee"
+                                 HeightRequest="500"
+                                 x:Name="topBannerCoverFlowView"
+                                 PositionShiftValue="60" 
+                                 IsCyclical="true"
+                                 Padding="-6"
+                                 SelectedItem="selectedImage">
+                <cards:CoverFlowView.ItemTemplate >
+                    <DataTemplate>
+                        <ContentView Margin="0" Padding="0">
+                            <ImageButton Source="{Binding Image}" CommandParameter="{Binding ItemIndex}" 
+                                   Margin="40" Aspect="Fill" Clicked="selectedImage" />
+                        </ContentView>
+                    </DataTemplate>
+                </cards:CoverFlowView.ItemTemplate>
+            </cards:CoverFlowView>
+
+            <Label x:Name="TopBannerCount" Grid.Row="2" Margin="0"/>
+
+            <!--<cards:CarouselView Margin="-6"
+                                BackgroundColor="#ffffff"
+                                HeightRequest="500"
+                                x:Name="middleBannerCoverCarouselView"
+                                IsCyclical="false"
+                                Padding="-6">
+                <cards:CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <ContentView Margin="0" Padding="0">
+                            <Image Source="{Binding Image}" Margin="40" Aspect="Fill"/>
+                        </ContentView>
+                    </DataTemplate>
+                </cards:CarouselView.ItemTemplate>
+            </cards:CarouselView>
+            <StackLayout  BackgroundColor="White" HorizontalOptions="FillAndExpand" Margin="0" Padding="0" Spacing="-6">
+                    <Label Text="Check It Out" TextColor="#000000" FontAttributes="Bold" FontSize="Medium" />
+            </StackLayout>-->
+            <!--<Label Text="Check It Out" TextColor="#000000" FontAttributes="Bold" FontSize="Medium" />-->
+            <!--<WebView x:Name="webView" Source="https://www.youtube.com/watch?v=LIzujPjKfhs" HeightRequest="300" WidthRequest="500" BackgroundColor="#ffffff" Margin="0"/>-->
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
