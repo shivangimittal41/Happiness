@@ -16,7 +16,7 @@
 
     <cards:CarouselView 
         ItemsSource="{Binding Items}"
-        SlideShowDuration="3500"
+        SlideShowDuration="10000"
         SelectedIndex="{Binding CurrentIndex}">
         <cards:CarouselView.ItemTemplate>
             <DataTemplate>
@@ -24,10 +24,10 @@
                     <Frame 
                         VerticalOptions="Center"
                         HorizontalOptions="Center"
-                        HeightRequest="300"
-                        WidthRequest="300"
+                        HeightRequest="200"
+                        WidthRequest="400"
                         Padding="0" 
-                        HasShadow="false"
+                        HasShadow="True"
                         IsClippedToBounds="true"
                         CornerRadius="10"
                         BackgroundColor="{Binding Color}">
@@ -40,8 +40,8 @@
         </cards:CarouselView.ItemTemplate>
         
         <controls:IndicatorsControl ToFadeDuration="1500"/>
-        <controls:LeftArrowControl ToFadeDuration="2500"/>
-        <controls:RightArrowControl ToFadeDuration="2500"/>
+        <controls:LeftArrowControl ToFadeDuration="1500"/>
+        <controls:RightArrowControl ToFadeDuration="1500"/>
     </cards:CarouselView>
     
 </ContentPage>

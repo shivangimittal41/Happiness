@@ -15,9 +15,10 @@ namespace PanCardViewSample.Views
 				BackgroundColor = Color.Black.MultiplyAlpha(.9)
 			};
 			AbsoluteLayout.SetLayoutFlags(cardsView, AbsoluteLayoutFlags.All);
-			AbsoluteLayout.SetLayoutBounds(cardsView, new Rectangle(0, 0, 1, 1));
+            AbsoluteLayout.SetLayoutBounds(cardsView, new Rectangle(0, 0, 1, 1));
+            //AbsoluteLayout.SetLayoutBounds(cardsView, new Rectangle(0, 0, HeightRequest = 50, WidthRequest = 100));
 
-			var prevItem = new ToolbarItem
+            var prevItem = new ToolbarItem
 			{
 				Text = "**Prev**",
 				Icon = "prev",
@@ -42,19 +43,19 @@ namespace PanCardViewSample.Views
 			Title = "Cards View";
 
 
-			var removeButton = new Button
-			{
-				Text = "Remove current",
-				FontAttributes = FontAttributes.Bold,
-				TextColor = Color.Black,
-				BackgroundColor = Color.Yellow.MultiplyAlpha(.7),
-				Margin = new Thickness(0, 0, 0, 10)
-			};
+			//var removeButton = new Button
+			//{
+			//	Text = "Remove current",
+			//	FontAttributes = FontAttributes.Bold,
+			//	TextColor = Color.Black,
+			//	BackgroundColor = Color.Yellow.MultiplyAlpha(.7),
+			//	Margin = new Thickness(0, 0, 0, 10)
+			//};
 
-			removeButton.SetBinding(Button.CommandProperty, nameof(CardsSampleViewModel.RemoveCurrentItemCommand));
+			//removeButton.SetBinding(Button.CommandProperty, nameof(CardsSampleViewModel.RemoveCurrentItemCommand));
 
-			AbsoluteLayout.SetLayoutFlags(removeButton, AbsoluteLayoutFlags.PositionProportional);
-			AbsoluteLayout.SetLayoutBounds(removeButton, new Rectangle(.5, 1, 150, 40));
+			//AbsoluteLayout.SetLayoutFlags(removeButton, AbsoluteLayoutFlags.PositionProportional);
+			//AbsoluteLayout.SetLayoutBounds(removeButton, new Rectangle(.5, 1, 150, 40));
 
 
 
@@ -62,8 +63,8 @@ namespace PanCardViewSample.Views
 			{
 				Children =
 				{
-					cardsView,
-					removeButton
+					cardsView
+					//removeButton
 				}
 			};
 

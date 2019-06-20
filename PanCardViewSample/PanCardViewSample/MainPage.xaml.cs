@@ -9,6 +9,9 @@ using PanCardViewSample.ViewModels;
 using PanCardViewSample.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using System.Reflection;
+using Xamarin.Forms.PlatformConfiguration;
+using Xamarin.Forms.PlatformConfiguration.AndroidSpecific;
 
 
 namespace PanCardViewSample
@@ -39,6 +42,11 @@ namespace PanCardViewSample
             //middleBannerCoverCarouselView.ItemsSource = middleBanners;
 
             //webView.Source = "https://player.vimeo.com/video/332724932";
+            //var assembly = typeof(EmbeddedImages).GetTypeInfo().Assembly;
+            //foreach (var res in assembly.GetManifestResourceNames())
+            //{
+            //    System.Diagnostics.Debug.WriteLine("found resource: " + res);
+            //}
         }
 
         private string SelectedItemIndex(TopBanners topBanners)
@@ -55,7 +63,7 @@ namespace PanCardViewSample
         {
             if (topBannerCoverFlowView.SelectedIndex == 0)
             {
-                await Navigation.PushAsync(new CubeSampleXamlView());
+                await Navigation.PushAsync(new CardsSampleView());
             }
             else if (topBannerCoverFlowView.SelectedIndex == 1)
             {
@@ -67,7 +75,7 @@ namespace PanCardViewSample
             }
             else
             {
-                await Navigation.PushAsync(new CardsSampleView());
+                await Navigation.PushAsync(new CubeSampleXamlView());
             }
             //else
             //{

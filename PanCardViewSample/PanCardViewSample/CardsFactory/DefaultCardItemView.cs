@@ -13,13 +13,13 @@ namespace PanCardViewSample.CardsFactory
 
 			var frame = new Frame
 			{
-				Padding = 0,
+				Padding = 20,
 				HasShadow = false,
 				CornerRadius = 10,
 				IsClippedToBounds = true
 			};
 			frame.SetBinding(BackgroundColorProperty, "Color");
-			Children.Add(frame, new Rectangle(.5, .5, 300, 300), AbsoluteLayoutFlags.PositionProportional);
+			Children.Add(frame, new Rectangle(.5, 0.4, 455, 270), AbsoluteLayoutFlags.PositionProportional);
 
 			var image = new CachedImage
 			{
