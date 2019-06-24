@@ -31,4 +31,42 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <None Update="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="ViewModels\About.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="ViewModels\Survey\HowHappyAreYou.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="ViewModels\Survey\HowHappyIsYourClass.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="ViewModels\Survey\SurveySelection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\CarouselSampleEmbeddedView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\CarouselSampleXamlView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\CoverFlowSampleXamlView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\CubeSampleXamlView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\GTK\CarouselSampleXamlView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\GTK\CoverFlowSampleXamlView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\PanoramaSampleView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+  </ItemGroup>
 </Project>
