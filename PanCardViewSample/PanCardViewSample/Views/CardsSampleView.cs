@@ -40,7 +40,7 @@ namespace PanCardViewSample.Views
 			cardsView.SetBinding(CardsView.ItemsSourceProperty, nameof(CardsSampleViewModel.Items));
 			cardsView.SetBinding(CardsView.SelectedIndexProperty, nameof(CardsSampleViewModel.CurrentIndex));
 
-			Title = "Cards View";
+			Title = "Tips for a Happy Classroom";
 
 
 			//var removeButton = new Button

@@ -13,7 +13,7 @@ namespace PanCardViewSample.CardsFactory
 
 			var frame = new Frame
 			{
-				Padding = 20,
+				Padding = 5,
 				HasShadow = false,
 				CornerRadius = 10,
 				IsClippedToBounds = true

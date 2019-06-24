@@ -13,7 +13,11 @@ namespace PanCardViewSample
             //    return;
             //}
             //MainPage = new NavigationPage(new StartPage());
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new MainPage())
+            {
+                BarBackgroundColor = Color.FromHex("#0a2a70"),
+                BarTextColor = Color.White
+            };
         }
 	}
 

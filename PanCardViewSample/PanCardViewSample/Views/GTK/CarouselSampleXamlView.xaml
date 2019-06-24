@@ -7,7 +7,7 @@
     xmlns:controls="clr-namespace:PanCardView.Controls;assembly=PanCardView"
     x:Class="PanCardViewSample.Views.Gtk.CarouselSampleXamlView"
     BackgroundColor="Black"
-    Title="Carousel Xaml">
+    Title="Happiness Tools">
 
     <ContentPage.BindingContext>
         <viewModels:CardsSampleViewModel/>

@@ -10,8 +10,19 @@ namespace PanCardViewSample.Views
 	public class CarouselSampleSrollView : ContentPage
 	{
 		private readonly CardCarouselView _carouselView;
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            MessagingCenter.Send(this, "AllowLandscape");
+        }
 
-		public CarouselSampleSrollView()
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+            MessagingCenter.Send(this, "PreventLandscape"); //during page close setting back to portrait 
+        }
+
+        public CarouselSampleSrollView()
 		{
 			_carouselView = new CardCarouselView
             {
