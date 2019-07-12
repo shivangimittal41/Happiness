@@ -33,7 +33,7 @@
 
             <cards:CoverFlowView Margin="-6"
                                  BackgroundColor="#eeeeee"
-                                 HeightRequest="500"
+                                 HeightRequest="580"
                                  x:Name="topBannerCoverFlowView"
                                  PositionShiftValue="60" 
                                  IsCyclical="true"
@@ -49,9 +49,9 @@
                 </cards:CoverFlowView.ItemTemplate>
             </cards:CoverFlowView>
 
-            <Label x:Name="TopBannerCount" Grid.Row="2" Margin="0"/>
+            <!--<Label x:Name="TopBannerCount" Grid.Row="2" Margin="0"/>
 
-            <!--<cards:CarouselView Margin="-6"
+            <cards:CarouselView Margin="-6"
                                 BackgroundColor="#ffffff"
                                 HeightRequest="500"
                                 x:Name="middleBannerCoverCarouselView"

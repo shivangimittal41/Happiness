@@ -15,6 +15,27 @@ namespace PanCardViewSample.ViewModels.Survey
 		public HowHappyAreYou ()
 		{
 			InitializeComponent ();
-		}
-	}
+            webView.Source = "https://www.surveymonkey.com/r/Y5X3NX3";
+        }
+
+        //async void OnBackButtonClicked(object sender, EventArgs e)
+        //{
+        //    if (webView.CanGoBack)
+        //    {
+        //        webView.GoBack();
+        //    }
+        //    else
+        //    {
+        //        await Navigation.PopAsync();
+        //    }
+        //}
+
+        //void OnForwardButtonClicked(object sender, EventArgs e)
+        //{
+        //    if (webView.CanGoForward)
+        //    {
+        //        webView.GoForward();
+        //    }
+        //}
+    }
 }

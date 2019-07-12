@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PanCardViewSample.Views.TipsToHappyClassroom"
+             xmlns:cards="clr-namespace:PanCardView;assembly=PanCardView"
+             Title="Tips To A Happy Classroom"
+             BackgroundColor="Black">
+    <StackLayout>
+        <cards:CoverFlowView Margin="0,2,0,0"
+                                    x:Name="Ppt_View" SelectedItem="Ppt_clicked">
+            <cards:CoverFlowView.ItemTemplate>
+                <DataTemplate>
+                    <ContentView>
+                        <StackLayout Orientation="Vertical"
+                                                 Padding="5,5,5,0"
+                                                 VerticalOptions="CenterAndExpand"
+                                                 HorizontalOptions="CenterAndExpand">
+                            <ImageButton Clicked="Ppt_clicked"
+                                                     CommandParameter="{Binding oid}"
+                                                     Source="{Binding image_path}"
+                                                     BackgroundColor="White"
+                                         WidthRequest="450" HeightRequest="300"/>
+                        </StackLayout>
+                    </ContentView>
+                </DataTemplate>
+            </cards:CoverFlowView.ItemTemplate>
+        </cards:CoverFlowView>
+    </StackLayout>
+</ContentPage>

@@ -15,13 +15,25 @@ namespace PanCardViewSample.Droid
 		protected override void OnCreate(Bundle bundle)
 		{
             //allowing the device to change the screen orientation based on the rotation 
-            MessagingCenter.Subscribe<CardsSampleView>(this, "AllowLandscape", sender =>
+            MessagingCenter.Subscribe<HappinessTools>(this, "AllowLandscape", sender =>
             {
                 RequestedOrientation = ScreenOrientation.Landscape;
             });
 
             //during page close setting back to portrait
-            MessagingCenter.Subscribe<CardsSampleView>(this, "PreventLandscape", sender =>
+            MessagingCenter.Subscribe<HappinessTools>(this, "PreventLandscape", sender =>
+            {
+                RequestedOrientation = ScreenOrientation.Portrait;
+            });
+
+            //allowing the device to change the screen orientation based on the rotation 
+            MessagingCenter.Subscribe<TipsToHappyClassroom>(this, "AllowLandscape", sender =>
+            {
+                RequestedOrientation = ScreenOrientation.Landscape;
+            });
+
+            //during page close setting back to portrait
+            MessagingCenter.Subscribe<TipsToHappyClassroom>(this, "PreventLandscape", sender =>
             {
                 RequestedOrientation = ScreenOrientation.Portrait;
             });

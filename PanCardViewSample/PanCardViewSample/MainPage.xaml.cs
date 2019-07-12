@@ -22,10 +22,12 @@ namespace PanCardViewSample
 	{
         ObservableCollection<TopBanners> topBanners = new ObservableCollection<TopBanners>() { };
         ObservableCollection<MiddleBanners> middleBanners = new ObservableCollection<MiddleBanners>() { };
+       
 
         public MainPage()
         {
             InitializeComponent();
+            
 
             topBanners.Add(new TopBanners { ItemIndex = "0", Name = "Tools 01", Image = "classroom.jpg" });
             topBanners.Add(new TopBanners { ItemIndex = "1", Name = "Tips 02", Image = "Happiness.jpg" });
@@ -33,9 +35,9 @@ namespace PanCardViewSample
             topBanners.Add(new TopBanners { ItemIndex = "3", Name = "Tips 04", Image = "Tips.png" });
             //topBanners.Add(new TopBanners { ItemIndex = "4", Name = "Test 05", Image = "classroom.jpg" });
             topBannerCoverFlowView.ItemsSource = topBanners;
-            TopBannerCount.Text = SelectedItemIndex((TopBanners)topBannerCoverFlowView.SelectedItem) + "/" + topBanners.Count;
+            //TopBannerCount.Text = SelectedItemIndex((TopBanners)topBannerCoverFlowView.SelectedItem) + "/" + topBanners.Count;
 
-            topBannerCoverFlowView.ItemSwiped += async (PanCardView.CardsView view, PanCardView.EventArgs.ItemSwipedEventArgs args) => { TopBannerCount.Text = SelectedItemIndex((TopBanners)args.Item) + "/" + topBanners.Count; };
+            //topBannerCoverFlowView.ItemSwiped += async (PanCardView.CardsView view, PanCardView.EventArgs.ItemSwipedEventArgs args) => { TopBannerCount.Text = SelectedItemIndex((TopBanners)args.Item) + "/" + topBanners.Count; };
 
             //middleBanners.Add(new MiddleBanners { ItemIndex = "1", Name = "Event JPG", Image = "event.jpg" });
             //middleBanners.Add(new MiddleBanners { ItemIndex = "2", Name = "Event 2 JPG", Image = "event.jpg" });
@@ -61,9 +63,14 @@ namespace PanCardViewSample
 
         private async void selectedImage(object sender, EventArgs e)
         {
+            //if (topBannerCoverFlowView.SelectedIndex == 0)
+            //{
+            //    await Navigation.PushAsync(new CardsSampleView());
+            //}
             if (topBannerCoverFlowView.SelectedIndex == 0)
             {
-                await Navigation.PushAsync(new CardsSampleView());
+                //await Navigation.PushAsync(new CarouselSampleViewNoTemplate());
+                await Navigation.PushAsync(new TipsToHappyClassroom());
             }
             else if (topBannerCoverFlowView.SelectedIndex == 1)
             {
@@ -71,7 +78,9 @@ namespace PanCardViewSample
             }
             else if (topBannerCoverFlowView.SelectedIndex == 2)
             {
-                await Navigation.PushAsync(new CarouselSampleXamlView());
+                //await Navigation.PushAsync(new CarouselSampleXamlView());
+                await Navigation.PushAsync(new HappinessTools());
+
             }
             else
             {

@@ -1,12 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PanCardViewSample.ViewModels.About">
+             x:Class="PanCardViewSample.ViewModels.About"
+             Title="About The App">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="About this App!"
+        <Frame Padding="10" BackgroundColor="DimGray">
+            <ScrollView>
+                <StackLayout BackgroundColor="White" Padding="5,0,5,0">
+                    <Image Source="AboutIm.png" HeightRequest="250" WidthRequest="500" />
+                    
+                    <Label Text="Happiness App is created based on various researches which showed the importance of Happiness in everyone's Life! A Teacher is a person which has an ability to shape the future of an individual. For that to happen, Peace and happiness should be there from within.This App helps to create and check that happiness with the help of various tips and quizes!"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+                HorizontalOptions="CenterAndExpand" TextColor="Black" FontSize="Medium" Margin="18,-5,8,8"/>
+                    
+                </StackLayout>
+            </ScrollView>
+        </Frame>
     </ContentPage.Content>
 </ContentPage>

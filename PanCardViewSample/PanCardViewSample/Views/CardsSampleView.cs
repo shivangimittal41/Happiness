@@ -16,6 +16,8 @@ namespace PanCardViewSample.Views
 			};
 			AbsoluteLayout.SetLayoutFlags(cardsView, AbsoluteLayoutFlags.All);
             AbsoluteLayout.SetLayoutBounds(cardsView, new Rectangle(0, 0, 1, 1));
+
+            //cardsView.GestureRecognizers.
             //AbsoluteLayout.SetLayoutBounds(cardsView, new Rectangle(0, 0, HeightRequest = 50, WidthRequest = 100));
 
             var prevItem = new ToolbarItem

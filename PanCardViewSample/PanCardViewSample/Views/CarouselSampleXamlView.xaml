@@ -8,7 +8,7 @@
     xmlns:ffimage="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
     x:Class="PanCardViewSample.Views.CarouselSampleXamlView"
     BackgroundColor="Black"
-    Title="Carousel Xaml">
+    Title="Happiness Tools">
 
     <ContentPage.BindingContext>
         <viewModels:CarouselSampleXamlViewModel/>
@@ -24,7 +24,7 @@
                     <Frame 
                         VerticalOptions="Center"
                         HorizontalOptions="Center"
-                        HeightRequest="300"
+                        HeightRequest="350"
                         WidthRequest="500"
                         Padding="0" 
                         HasShadow="True"

@@ -30,6 +30,12 @@
     <EmbeddedResource Update="ViewModels\Survey\SurveySelection.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Views\HappinessTools.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\TipsToHappyClassroom.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Update="MainPage.xaml">
@@ -66,6 +72,9 @@
       <Generator>MSBuild:Compile</Generator>
     </None>
     <None Update="Views\PanoramaSampleView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Views\TipsToHappyClassroom.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
   </ItemGroup>

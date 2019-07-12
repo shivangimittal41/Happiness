@@ -1,16 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PanCardViewSample.ViewModels.SurveySelection">
+             x:Class="PanCardViewSample.ViewModels.SurveySelection"
+             BackgroundColor="#D2B52A"
+             Title="Take the Quiz to know"
+             BackgroundImage="quiz.png">
     <ContentPage.Content>
        
         <StackLayout VerticalOptions="Center">
-            <Label Text="Take the Quiz to know!" HorizontalOptions="CenterAndExpand" />
-
-            <StackLayout Orientation="Vertical" Padding="2,2,2,2" BackgroundColor="White" HorizontalOptions="CenterAndExpand"
-                         WidthRequest="400">
-                <Button Text="How Happy is your class?" Clicked="Class_Clicked" />
-                <Button Text="How Happy are you?" Clicked="You_Clicked" />
+            
+            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand"
+                         WidthRequest="250">
+                <Button Text="How Happy is your class?" Clicked="Class_Clicked" CornerRadius="20"
+                        BackgroundColor="#4B4C06" TextColor="White" Padding="10" Opacity="0.8"/>
+                <Button Text="How Happy are you?" Clicked="You_Clicked" CornerRadius="20" Padding="10"
+                        BackgroundColor="White" Opacity="0.8"/>
             </StackLayout>
 
         </StackLayout>

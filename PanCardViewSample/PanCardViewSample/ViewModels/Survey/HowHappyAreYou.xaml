@@ -3,15 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PanCardViewSample.ViewModels.Survey.HowHappyAreYou"
              Title="How Happy are You?">
-    <ContentPage.Content>
+    <!--<ContentPage.Content>
         <StackLayout>
-
-            <WebView x:Name="webView" Source="http://www.surveymonkey.com/r/Y5X3NX3" HeightRequest="600" WidthRequest="50" BackgroundColor="#ffffff" Margin="0"/>
-            <!--<ScrollView VerticalScrollBarVisibility="Default" HorizontalScrollBarVisibility="Default">
-          
-
-            </ScrollView>-->
-
+            <WebView x:Name="webView" Source="https://www.surveymonkey.com/r/Y5X3NX3" HeightRequest="600" WidthRequest="50" BackgroundColor="#ffffff" Margin="0"/>
         </StackLayout>
-    </ContentPage.Content>
+    </ContentPage.Content>-->
+    <StackLayout Margin="2">
+        <!-- WebView needs to be given height and width request within layouts to render. -->
+        <WebView x:Name="webView" WidthRequest="1000" HeightRequest="1000" />
+    </StackLayout>
 </ContentPage>
