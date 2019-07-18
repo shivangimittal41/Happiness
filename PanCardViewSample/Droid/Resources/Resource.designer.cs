@@ -4598,26 +4598,26 @@ namespace PanCardViewSample.Droid
 			// aapt resource value: 0x7f020054
 			public const int avd_hide_password = 2130837588;
 			
-			// aapt resource value: 0x7f02016a
-			public const int avd_hide_password_1 = 2130837866;
+			// aapt resource value: 0x7f020172
+			public const int avd_hide_password_1 = 2130837874;
 			
-			// aapt resource value: 0x7f02016b
-			public const int avd_hide_password_2 = 2130837867;
+			// aapt resource value: 0x7f020173
+			public const int avd_hide_password_2 = 2130837875;
 			
-			// aapt resource value: 0x7f02016c
-			public const int avd_hide_password_3 = 2130837868;
+			// aapt resource value: 0x7f020174
+			public const int avd_hide_password_3 = 2130837876;
 			
 			// aapt resource value: 0x7f020055
 			public const int avd_show_password = 2130837589;
 			
-			// aapt resource value: 0x7f02016d
-			public const int avd_show_password_1 = 2130837869;
+			// aapt resource value: 0x7f020175
+			public const int avd_show_password_1 = 2130837877;
 			
-			// aapt resource value: 0x7f02016e
-			public const int avd_show_password_2 = 2130837870;
+			// aapt resource value: 0x7f020176
+			public const int avd_show_password_2 = 2130837878;
 			
-			// aapt resource value: 0x7f02016f
-			public const int avd_show_password_3 = 2130837871;
+			// aapt resource value: 0x7f020177
+			public const int avd_show_password_3 = 2130837879;
 			
 			// aapt resource value: 0x7f020056
 			public const int classroom = 2130837590;
@@ -5366,11 +5366,11 @@ namespace PanCardViewSample.Droid
 			// aapt resource value: 0x7f02014e
 			public const int notification_icon_background = 2130837838;
 			
-			// aapt resource value: 0x7f020168
-			public const int notification_template_icon_bg = 2130837864;
+			// aapt resource value: 0x7f020170
+			public const int notification_template_icon_bg = 2130837872;
 			
-			// aapt resource value: 0x7f020169
-			public const int notification_template_icon_low_bg = 2130837865;
+			// aapt resource value: 0x7f020171
+			public const int notification_template_icon_low_bg = 2130837873;
 			
 			// aapt resource value: 0x7f02014f
 			public const int notification_tile_bg = 2130837839;
@@ -5400,52 +5400,76 @@ namespace PanCardViewSample.Droid
 			public const int Tips = 2130837847;
 			
 			// aapt resource value: 0x7f020158
-			public const int Tools = 2130837848;
+			public const int Tips1 = 2130837848;
 			
 			// aapt resource value: 0x7f020159
-			public const int tools1 = 2130837849;
+			public const int Tips2 = 2130837849;
 			
 			// aapt resource value: 0x7f02015a
-			public const int tools10 = 2130837850;
+			public const int Tips3 = 2130837850;
 			
 			// aapt resource value: 0x7f02015b
-			public const int tools11 = 2130837851;
+			public const int Tips4 = 2130837851;
 			
 			// aapt resource value: 0x7f02015c
-			public const int tools12 = 2130837852;
+			public const int Tips5 = 2130837852;
 			
 			// aapt resource value: 0x7f02015d
-			public const int tools13 = 2130837853;
+			public const int Tips6 = 2130837853;
 			
 			// aapt resource value: 0x7f02015e
-			public const int tools2 = 2130837854;
+			public const int Tips7 = 2130837854;
 			
 			// aapt resource value: 0x7f02015f
-			public const int tools3 = 2130837855;
+			public const int Tips8 = 2130837855;
 			
 			// aapt resource value: 0x7f020160
-			public const int tools4 = 2130837856;
+			public const int Tools = 2130837856;
 			
 			// aapt resource value: 0x7f020161
-			public const int tools5 = 2130837857;
+			public const int tools1 = 2130837857;
 			
 			// aapt resource value: 0x7f020162
-			public const int tools6 = 2130837858;
+			public const int tools10 = 2130837858;
 			
 			// aapt resource value: 0x7f020163
-			public const int tools7 = 2130837859;
+			public const int tools11 = 2130837859;
 			
 			// aapt resource value: 0x7f020164
-			public const int tools8 = 2130837860;
+			public const int tools12 = 2130837860;
 			
 			// aapt resource value: 0x7f020165
-			public const int tools9 = 2130837861;
+			public const int tools13 = 2130837861;
 			
 			// aapt resource value: 0x7f020166
-			public const int tooltip_frame_dark = 2130837862;
+			public const int tools2 = 2130837862;
 			
 			// aapt resource value: 0x7f020167
-			public const int tooltip_frame_light = 2130837863;
+			public const int tools3 = 2130837863;
+			
+			// aapt resource value: 0x7f020168
+			public const int tools4 = 2130837864;
+			
+			// aapt resource value: 0x7f020169
+			public const int tools5 = 2130837865;
+			
+			// aapt resource value: 0x7f02016a
+			public const int tools6 = 2130837866;
+			
+			// aapt resource value: 0x7f02016b
+			public const int tools7 = 2130837867;
+			
+			// aapt resource value: 0x7f02016c
+			public const int tools8 = 2130837868;
+			
+			// aapt resource value: 0x7f02016d
+			public const int tools9 = 2130837869;
+			
+			// aapt resource value: 0x7f02016e
+			public const int tooltip_frame_dark = 2130837870;
+			
+			// aapt resource value: 0x7f02016f
+			public const int tooltip_frame_light = 2130837871;
 			
 			static Drawable()
 			{

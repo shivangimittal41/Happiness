@@ -22,11 +22,14 @@ namespace PanCardViewSample.ViewModels
         {
             Items = new ObservableCollection<object>
             {
-                new { Source = CreateSource(), Ind = _ImageCount++, Color = Color.Red },
-                new { Source = CreateSource(), Ind = _ImageCount++, Color = Color.Green },
-                new { Source = CreateSource(), Ind = _ImageCount++, Color = Color.Gold },
-                new { Source = CreateSource(), Ind = _ImageCount++, Color = Color.Silver },
-                new { Source = CreateSource(), Ind = _ImageCount++, Color = Color.Blue }
+                new { Source = "Tips1.jpg" , Color = Color.Red },
+                new { Source = "Tips2.jpg" , Color = Color.Green },
+                new { Source = "Tips3.jpg", Color = Color.Gold },
+                new { Source = "Tips4.jpg", Color = Color.Silver },
+                new { Source = "Tips5.jpg", Color = Color.Blue },
+                new { Source = "Tips6.jpg", Color = Color.Gold },
+                new { Source = "Tips7.jpg", Color = Color.Yellow },
+                new { Source = "Tips8.jpg", Color = Color.Black }
             };
 
             PanPositionChangedCommand = new Command(v =>

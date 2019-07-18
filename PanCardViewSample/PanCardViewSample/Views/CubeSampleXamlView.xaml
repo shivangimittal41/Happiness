@@ -18,7 +18,7 @@
             <cards:CubeView 
                 VerticalOptions="FillAndExpand"
                 ItemsSource="{Binding Items}"
-                SelectedIndex="{Binding CurrentIndex}">
+                SelectedIndex="{Binding CurrentIndex}" Padding="5">
             <cards:CubeView.ItemTemplate>
                 <DataTemplate>
                     <ContentView>
@@ -26,7 +26,7 @@
                             VerticalOptions="Center"
                             HorizontalOptions="Center"
                             HeightRequest="300"
-                            WidthRequest="300"
+                            WidthRequest="480"
                             Padding="0" 
                             HasShadow="false"
                             BackgroundColor="{Binding Color}"
@@ -47,16 +47,16 @@
                         HorizontalOptions="FillAndExpand"
                         FontAttributes="Bold"
                         Text="PREV"
-                        FontSize="30"
+                        FontSize="Medium"
                         Command="{Binding PanPositionChangedCommand}" 
-                        CommandParameter="False"/>
+                        CommandParameter="False" BackgroundColor="#3e3e52"/>
                 <Button TextColor="White"
                         HorizontalOptions="FillAndExpand"
                         FontAttributes="Bold"
                         Text="NEXT"
-                        FontSize="30"
+                        FontSize="Medium"
                         Command="{Binding PanPositionChangedCommand}" 
-                        CommandParameter="True"/>
+                        CommandParameter="True" BackgroundColor="#3e3e52"/>
         </StackLayout>
     </StackLayout>
     
