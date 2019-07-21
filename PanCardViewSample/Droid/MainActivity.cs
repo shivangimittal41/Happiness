@@ -9,7 +9,7 @@ using PanCardViewSample.Views;
 
 namespace PanCardViewSample.Droid
 {
-	[Activity(Label = "PanCardViewSample.Droid", Icon = "@drawable/iconH", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation, ScreenOrientation = ScreenOrientation.Portrait)]
+	[Activity(Label = "PanCardViewSample.Droid", Icon = "@drawable/appicon", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation, ScreenOrientation = ScreenOrientation.Portrait)]
 	public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
 	{
 		protected override void OnCreate(Bundle bundle)

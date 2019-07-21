@@ -4,5 +4,5 @@
 	<uses-permission android:name="android.permission.INTERNET" />
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-	<application android:label="Hacking Happiness" android:icon="@drawable/iconH"></application>
+	<application android:label="Hacking Happiness" android:icon="@drawable/appicon"></application>
 </manifest>
