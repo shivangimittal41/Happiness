@@ -71,6 +71,9 @@
     <None Update="Views\GTK\CoverFlowSampleXamlView.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
+    <None Update="Views\HappinessTools.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
     <None Update="Views\PanoramaSampleView.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
