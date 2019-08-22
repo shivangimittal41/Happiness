@@ -25,7 +25,7 @@
                                                      CommandParameter="{Binding oid}"
                                                      Source="{Binding image_path}"
                                                      BackgroundColor="White"
-                                         WidthRequest="450" HeightRequest="300"/>
+                                         WidthRequest="500" HeightRequest="350"/>
                             </StackLayout>
                         </ContentView>
                     </DataTemplate>

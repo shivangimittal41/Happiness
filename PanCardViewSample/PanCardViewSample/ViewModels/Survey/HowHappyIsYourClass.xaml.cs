@@ -15,7 +15,7 @@ namespace PanCardViewSample.ViewModels.Survey
 		public HowHappyIsYourClass ()
 		{
 			InitializeComponent ();
-            webView.Source = "http://www.surveymonkey.com/r/YWK385D";
+            webView.Source = "https://www.surveymonkey.com/r/YWK385D";
         }
 	}
 }

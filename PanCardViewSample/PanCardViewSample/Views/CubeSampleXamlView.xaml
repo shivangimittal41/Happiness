@@ -14,11 +14,11 @@
         <viewModels:CubeSampleViewModel/>
     </ContentPage.BindingContext>
 
-    <StackLayout Spacing="50" Padding="0, 50">    
+    <StackLayout Spacing="50" Padding="0, 40">    
             <cards:CubeView 
                 VerticalOptions="FillAndExpand"
                 ItemsSource="{Binding Items}"
-                SelectedIndex="{Binding CurrentIndex}" Padding="5">
+                SelectedIndex="{Binding CurrentIndex}" Padding="2">
             <cards:CubeView.ItemTemplate>
                 <DataTemplate>
                     <ContentView>
@@ -26,7 +26,7 @@
                             VerticalOptions="Center"
                             HorizontalOptions="Center"
                             HeightRequest="300"
-                            WidthRequest="480"
+                            WidthRequest="550"
                             Padding="0" 
                             HasShadow="false"
                             BackgroundColor="{Binding Color}"

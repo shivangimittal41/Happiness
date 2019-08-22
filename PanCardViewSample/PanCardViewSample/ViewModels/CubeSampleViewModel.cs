@@ -78,6 +78,8 @@ namespace PanCardViewSample.ViewModels
             }
         }
 
+
+
         public bool IsAutoAnimationRunning { get; set; }
 
         public bool IsUserInteractionRunning { get; set; }
