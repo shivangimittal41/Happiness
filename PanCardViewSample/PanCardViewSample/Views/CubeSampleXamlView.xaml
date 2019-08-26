@@ -25,7 +25,7 @@
                         <Frame 
                             VerticalOptions="Center"
                             HorizontalOptions="Center"
-                            HeightRequest="300"
+                            HeightRequest="250"
                             WidthRequest="550"
                             Padding="0" 
                             HasShadow="false"
