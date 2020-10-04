@@ -12,6 +12,8 @@ using Xamarin.Forms.Xaml;
 using System.Reflection;
 using Xamarin.Forms.PlatformConfiguration;
 using Xamarin.Forms.PlatformConfiguration.AndroidSpecific;
+using Plugin.Share;
+
 
 
 namespace PanCardViewSample
@@ -61,7 +63,8 @@ namespace PanCardViewSample
             return topBanners.Name.ToString();
         }
 
-        private async void selectedImage(object sender, EventArgs e)
+       
+            private async void selectedImage(object sender, EventArgs e)
         {
             //if (topBannerCoverFlowView.SelectedIndex == 0)
             //{
@@ -95,6 +98,19 @@ namespace PanCardViewSample
         private async void About_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new ViewModels.About());
+        }
+
+        private void share_clicked(object sender, EventArgs e)
+        {
+            //CrossShare.Current.Share("https://play.google.com/store/apps/details?id=com.neeru_mittal.hacking_happinessApp");
+            //CrossShare.Current.ShareLink("https://play.google.com/store/apps/details?id=com.neeru_mittal.hacking_happinessApp", "Download" , "Hacking Happiness");
+            CrossShare.Current.Share(new Plugin.Share.Abstractions.ShareMessage
+            {
+                Text = "Get started with happiness!",
+                Title = "Hacking Happiness",
+                Url = "https://play.google.com/store/apps/details?id=com.neeru_mittal.hacking_happinessApp"
+            });
+
         }
 
     }

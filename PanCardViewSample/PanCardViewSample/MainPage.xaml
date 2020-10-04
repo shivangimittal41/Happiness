@@ -8,13 +8,14 @@
                          >
     <ContentPage.ToolbarItems  >
         <ToolbarItem Name="About"  Text="About" Priority="0" Order="Primary" Clicked="About_Clicked"  />
+        <ToolbarItem Name= "Share" IconImageSource="share2.png" Clicked="share_clicked"/>
     </ContentPage.ToolbarItems>
 
     <ScrollView>
         <StackLayout>
             <!--<StackLayout Padding="0" Margin="0,40,0,0" Spacing="0" BackgroundColor="#ffffff">
                 <StackLayout Orientation="Horizontal">
-                    <Image Source="ASULogo.png" HorizontalOptions="CenterAndExpand" Aspect="AspectFit" HeightRequest="40"/>
+<Image Source="ASULogo.png" HorizontalOptions="CenterAndExpand" Aspect="AspectFit" HeightRequest="40"/>
                     <Image Source="user.png" HorizontalOptions="EndAndExpand" Aspect="AspectFit" HeightRequest="20" />
                 </StackLayout>
                 <BoxView HeightRequest="2" WidthRequest="200" Color="Gray"/>
